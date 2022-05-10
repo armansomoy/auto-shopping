@@ -1,0 +1,185 @@
+/*======== large device =========*/
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/*======== medium device =========*/
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/*======== small device =========*/
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/*======== Extra small device =========*/
+@media (min-width: 320px) and (max-width: 576px) {
+    #speciality {
+        position: inherit;
+    }
+
+    .navbar-nav {
+        background-color: #fff;
+    }
+
+    .bottom-nav .bottom-border ul li .nav-link {
+        color: #2c2c2c;
+        margin-right: 0px;
+    }
+
+    .navbar-toggler {
+        padding: 10px 12px;
+        background-color: #fff;
+    }
+
+    .bottom-nav .bottom-border ul li .nav-link::after {
+        bottom: 0px;
+        height: 2px;
+    }
+
+    #banner .overlay .banner-content span {
+        color: #F8E432;
+        font-size: 12px;
+        font-weight: 500;
+        font-family: 'Rubik', sans-serif;
+        padding: 8px 20px;
+        background: rgba(255, 255, 255, 0.5);
+        border: 0.5px solid #FFFFFF;
+        backdrop-filter: blur(5px);
+        border-radius: 50px;
+    }
+
+    #works {
+        h1 {
+            font-size: 36px;
+        }
+
+        .work {
+            padding: 20px 0px;
+            border: 1px solid rgba(255, 255, 255, 0.5);
+
+            p {
+                font-size: 18px;
+            }
+
+        }
+    }
+
+    #vehicles .vehicle p {
+        font-size: 16px;
+    }
+
+    .bottom-nav .bottom-border {
+        border-bottom: none;
+    }
+
+    #banner .overlay .banner-content h1 {
+        font-size: 40px;
+    }
+
+    #banner .overlay .banner-content p {
+        padding: 0;
+    }
+
+    #banner .overlay .banner-content {
+        margin-top: 250px;
+    }
+
+    #users {
+        padding: 80px 0 100px 0;
+    }
+
+    #users h1 {
+        font-size: 36px;
+    }
+
+    #users .user .item {
+        height: 200px;
+    }
+
+    #vehicles h1 {
+        font-size: 32px;
+    }
+
+    #vehicles {
+        padding: 0 0 60px 0;
+    }
+
+    .vehicle {
+        text-align: center;
+    }
+
+    #works .work .icon img {
+        margin-top: 50%;
+        transform: translateY(-50%);
+    }
+
+    #services {
+        height: auto;
+    }
+
+    #services .service_content {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    .vehicle1 {
+        text-align: left;
+    }
+
+    #services .service_content h2 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    #services .service_content span {
+        margin-left: 22%;
+    }
+
+    #services .service_content p {
+        font-size: 18px;
+        text-align: center;
+        margin-left: 10px;
+    }
+
+    #services .service-item {
+        margin-left: 5%;
+    }
+
+    #services .service_content a {
+        margin-left: 5%;
+    }
+
+    #testimonials h1 {
+        font-size: 28px;
+        line-height: 48px;
+        margin: 10px 0;
+    }
+
+    #testimonials .items {
+        width: 95%;
+    }
+
+    #testimonials {
+        margin-bottom: 0;
+    }
+
+    #testimonials .items .testimonial .comment {
+        padding: 30px 30px 20px 30px;
+    }
+
+    #testimonials .items .testimonial .author_content {
+        display: none;
+    }
+
+    footer .footer_detail {
+        text-align: center;
+    }
+
+    footer .footer_detail .links {
+        margin-top: 50px;
+    }
+
+    footer .footer_detail .subscribe {
+        margin-top: 50px;
+    }
+
+    footer .footer_detail .subscribe button {
+        right: 46px;
+    }
+}
