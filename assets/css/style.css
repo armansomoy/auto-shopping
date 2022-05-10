@@ -412,6 +412,7 @@ header {
       background-color: #F8E432;
       color: #222; }
   #works .work p {
+    padding-top: 25px;
     color: #222;
     font-size: 25px;
     font-weight: 600;
@@ -743,6 +744,6 @@ footer {
     margin-top: 50px; }
 
   footer .footer_detail .subscribe button {
-    right: 46px; } }
+    right: 60px; } }
 
 /*# sourceMappingURL=style.css.map */
